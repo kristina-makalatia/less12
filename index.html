@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Free Web tutorials" />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="John Doe" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fb meta tags -->
+    <meta property="og:url" content="" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Our Fb Title" />
+    <meta property="og:description" content="Our Fb Descirption" />
+    <meta
+      property="og:image"
+      content="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg"
+    />
+    <title>Less 12</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section>
+      <h2 class="title-form">Form</h2>
+      <form class="form-wraper" action="" method="POST">
+        <div class="form-element">
+          <label for="myusername">Username</label>
+          <input
+            class="input-element"
+            type="text"
+            id="myusername"
+            name="username"
+            placeholder="Enter Your Username.."
+            required
+          />
+        </div>
+        <div class="form-element">
+          <label for="mypassw">Password</label>
+          <input
+            class="input-element"
+            type="password"
+            id="mypassw"
+            name="passworduser"
+            placeholder="Enter Your Password.."
+            required
+          />
+        </div>
+
+        <div class="form-element">
+          <label for="usercountry">Country</label>
+          <select class="select-element" name="choosecountry" id="usercountry">
+            <option value="none" selected disabled hidden>
+              Choose Your Country
+            </option>
+            <option value="germany">germany</option>
+            <option value="georgia">georgia</option>
+            <option value="usa">Usa</option>
+          </select>
+        </div>
+
+        <div class="form-element">
+          <label for="">Your Review</label>
+          <textarea
+            name=""
+            id=""
+            class="textarea-element"
+            placeholder="Enter Your Review.."
+          ></textarea>
+        </div>
+
+        <button class="btn-submit" type="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
